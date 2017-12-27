@@ -1,0 +1,92 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Main Banner */
+
+.main-banner {
+  background: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+  padding-top: 1rem;
+}
+
+/* Company logo heading settings */
+
+.container.top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: cadetblue;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 3rem;
+  border-top: 1rem;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+}
+
+.logo span {
+  padding-left: 1rem;
+}
+
+.menu {
+  display: flex;
+  padding-right: 1rem;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  padding: 0rem 1rem;
+}
+
+ul.small-screen {
+  display: none;
+}
+
+/* Caption settings */
+
+.caption {
+  display: inline-flex;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 2rem;
+  width: auto;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.main-banner .flex {
+  justify-content: flex-end;
+}
